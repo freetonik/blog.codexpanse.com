@@ -1,3 +1,56 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Codexpanse Blog"
+theme = "cupper-hugo-theme"
+
+
+
+[taxonomies]
+  tag = "tags"
+
+
+[permalinks]
+  post = "/:filename/"
+
+
+[params]
+  description = "A humane way to learn to code."
+  homeMetaContent = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
+  footer = "Codexpanse 2019"
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  codePenUser = "freetonik"
+  katex = true
+
+[menu]
+  [[menu.nav]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+  # [[menu.nav]]
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   weight = 2
+  # [[menu.nav]]
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 3
+  # [[menu.nav]]
+  #   name = "RSS"
+  #   url = "/index.xml"
+  #   weight = 4
+
+  [[menu.nav]]
+    name = "Courses"
+    url = "https://learn.codexpanse.com"
+    weight = 5
+
+  [[menu.nav]]
+    name = "Podcast"
+    url = "https://podcast.codexpanse.com"
+    weight = 6
+
+  [[menu.nav]]
+    name = "YouTube"
+    url = "https://www.youtube.com/codexpanse"
+    weight = 7
