@@ -1,17 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.codexpanse.com"
 languageCode = "en-us"
 title = "Codexpanse Blog"
 theme = "cupper-hugo-theme"
 
-
-
 [taxonomies]
   tag = "tags"
 
-
 [permalinks]
   post = "/:filename/"
-
 
 [params]
   description = "A humane way to learn to code."
@@ -27,18 +23,6 @@ theme = "cupper-hugo-theme"
     name = "Blog"
     url = "/"
     weight = 1
-  # [[menu.nav]]
-  #   name = "Tags"
-  #   url = "/tags/"
-  #   weight = 2
-  # [[menu.nav]]
-  #   name = "About"
-  #   url = "/about/"
-  #   weight = 3
-  # [[menu.nav]]
-  #   name = "RSS"
-  #   url = "/index.xml"
-  #   weight = 4
 
   [[menu.nav]]
     name = "Courses"
