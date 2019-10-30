@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://infallible-ptolemy-ee24e6.netlify.com/* https://blog.codexpanse.com/:splat 301!
