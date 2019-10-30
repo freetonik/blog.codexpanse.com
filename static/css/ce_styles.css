@@ -10,3 +10,11 @@ h5{
 .logo img {
   padding: 1.25rem !important;
 }
+
+.date {
+  margin-top: 0.5rem;
+}
+
+.link-icon {
+  display: none;
+}
