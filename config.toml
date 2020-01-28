@@ -31,7 +31,7 @@ theme = "cupper-hugo-theme"
 
   [[menu.nav]]
     name = "Podcast"
-    url = "https://podcast.codexpanse.com"
+    url = "https://codexpanse.pinecast.co/"
     weight = 6
 
   [[menu.nav]]
